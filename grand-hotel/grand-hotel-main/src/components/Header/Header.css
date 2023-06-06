@@ -1,0 +1,33 @@
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  background-color: white;
+}
+
+Nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+Nav a:hover {
+  color: orange;
+}
+
+.signOut-btn {
+  background-color: #7e6648;
+  border: none;
+  margin-left: 20px;
+  padding: 0 20px;
+}
+
+.signOut-btn:hover {
+  background-color: #7e5e48;
+}
+.signOut-btn:focus {
+  background-color: #7e5e48;
+}
+
+@media screen and (max-width: 992px) {
+}
